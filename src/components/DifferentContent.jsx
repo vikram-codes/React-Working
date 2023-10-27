@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types*/
 export default function DifferentContent() {
   return (
     <div className="tab-content">

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
-import { useState } from "react";
+// import { useState } from "react";s
+import Tabbed from "./components/Tabbed";
 
 const content = [
   {

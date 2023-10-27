@@ -1,3 +1,9 @@
+/* eslint-disable react/prop-types*/
+import { useState } from "react";
+import Tab from "./Tab";
+import TabContent from "./TabContent";
+import DifferentContent from "./DifferentContent";
+
 export default function Tabbed({ content }) {
   const [activeTab, setActiveTab] = useState(0);
 

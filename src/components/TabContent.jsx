@@ -1,3 +1,6 @@
+/* eslint-disable react/prop-types*/
+
+import { useState } from "react";
 export default function TabContent({ item }) {
   const [showDetails, setShowDetails] = useState(true);
   const [likes, setLikes] = useState(0);
