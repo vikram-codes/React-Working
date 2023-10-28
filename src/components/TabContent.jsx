@@ -28,11 +28,11 @@ export default function TabContent({ item }) {
         </button>
 
         <div className="hearts-counter">
-          <button onClick={handleNegativeTripleInc}>---</button>
-          <button onClick={handleNegativeInc}> - </button>
+          <button onClick={handleNegativeTripleInc}>👎👎👎</button>
+          <button onClick={handleNegativeInc}>👎</button>
           <span>{likes} ❤️</span>
-          <button onClick={handleInc}>+</button>
-          <button onClick={handleTripleInc}>+++</button>
+          <button onClick={handleInc}>👍</button>
+          <button onClick={handleTripleInc}>👍👍👍</button>
         </div>
       </div>
 
