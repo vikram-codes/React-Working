@@ -9,7 +9,7 @@ export default function TabContent({ item }) {
     setLikes(likes + 1);
   }
   function handleNegativeInc() {
-    if (likes >= 1) setLikes(likes - 1);
+    if (likes > 0) setLikes(likes - 1);
   }
   return (
     <div className="tab-content">
