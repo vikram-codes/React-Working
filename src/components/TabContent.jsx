@@ -22,11 +22,9 @@ export default function TabContent({ item }) {
         </button>
 
         <div className="hearts-counter">
-          <button>👎👎👎</button>
           <button onClick={handleNegativeInc}>👎</button>
           <span>{likes} ❤️</span>
           <button onClick={handleInc}>👍</button>
-          <button>👍👍👍</button>
         </div>
       </div>
 
