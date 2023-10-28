@@ -12,10 +12,10 @@ export default function TabContent({ item }) {
     setLikes(likes + 3);
   }
   function handleNegativeInc() {
-    setLikes(likes - 1);
+    if (likes >= 1) setLikes(likes - 1);
   }
   function handleNegativeTripleInc() {
-    setLikes(likes - 3);
+    if (likes >= 1) setLikes(likes - 3);
   }
   return (
     <div className="tab-content">
