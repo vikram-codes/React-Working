@@ -8,14 +8,8 @@ export default function TabContent({ item }) {
   function handleInc() {
     setLikes(likes + 1);
   }
-  function handleTripleInc() {
-    setLikes(likes + 3);
-  }
   function handleNegativeInc() {
     if (likes >= 1) setLikes(likes - 1);
-  }
-  function handleNegativeTripleInc() {
-    if (likes >= 1) setLikes(likes - 3);
   }
   return (
     <div className="tab-content">
@@ -28,11 +22,11 @@ export default function TabContent({ item }) {
         </button>
 
         <div className="hearts-counter">
-          <button onClick={handleNegativeTripleInc}>👎👎👎</button>
+          <button>👎👎👎</button>
           <button onClick={handleNegativeInc}>👎</button>
           <span>{likes} ❤️</span>
           <button onClick={handleInc}>👍</button>
-          <button onClick={handleTripleInc}>👍👍👍</button>
+          <button>👍👍👍</button>
         </div>
       </div>
 
